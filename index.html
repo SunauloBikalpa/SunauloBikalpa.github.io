@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sunaulo Bikalpa</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+		<div class="navbar">
+			<img src="images/logo2.png" class ="logo">
+			<nav>
+				<ul>
+					<li><a href="#intro">INTRO</a></li>
+					<li><a href="#about">ABOUT</a></li>
+					<li><a href="#events">EVENTS</a></li>
+					<li><a href="#eventcalendar">EVENT CALENDAR</a></li>
+					<li><a href="#members">MEMBERS</a></li>
+					<li><a href="#contactus">CONTACT US</a></li>
+				</ul>
+			</nav>
+			
+		</div>
+	<section id="intro">
+	<div class="container">
+
+		<div class="row">
+			<div class="col">
+				<h1>Sunaulo Bikalpa: Golden Alternative</h1>
+			</div>
+
+      <!--image slider start-->
+      <div class="slider">
+      <div class="slides">
+        <!--radio buttons start-->
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+        <input type="radio" name="radio-btn" id="radio5">
+        <!--radio buttons end-->
+        <!--slide images start-->
+        <div class="slide first">
+          <img src="images/slide1.jpg" alt="">
+        </div>
+        <div class="slide">
+          <img src="images/slide2.jpg" alt="">
+        </div>
+        <div class="slide">
+          <img src="images/slide3.jpg" alt="">
+        </div>
+        <div class="slide">
+          <img src="images/slide4.jpg" alt="">
+        </div>
+         <div class="slide">
+          <img src="images/slide5.jpg" alt="">
+        </div>
+        <!--slide images end-->
+        <!--automatic navigation start-->
+        <div class="navigation-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+          <div class="auto-btn4"></div>
+          <div class="auto-btn5"></div>
+        </div> 
+        <!--automatic navigation end-->
+      </div>
+      <!--manual navigation start-->
+      <div class="navigation-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+        <label for="radio5" class="manual-btn"></label>
+      </div>
+
+      <!--manual navigation end-->
+    </div>
+    <!--image slider end-->
+
+    <script type="text/javascript">
+    var counter = 1;
+    setInterval(function(){
+      document.getElementById('radio' + counter).checked = true;
+      counter++;
+      if(counter > 5){
+        counter = 1;
+      }
+    }, 5000);
+    </script>
+
+		</div>
+	</div>
+	</section>
+
+
+	<section id ="about">
+	<div class="container2">
+		<h2 style="color: black; border-bottom:3px solid #000;">About</h2>
+		<div class="row">
+			<div class="col">
+				<h1 style="color:black;">Sunaulo Bikalpa</h1>
+				<p class="introtext" style="color:black">We are an NGO located in Kapan, Kathmandu. We were established at 2066 B.S. with the aim to help the
+					local community. We have organised several events in Kapan and Budhanilkantha area to raise awareness regarding female health issues and also organized health campaigns to senior citizens. We are also involved in organizing community cleaning activities and spreading employment awareness to youths in the society. We are also actively involved in distributing necessary relief materials in places affected by earthquake, flood or Covid-19.  
+				</p>
+			</div>
+
+			<div class="col">	
+
+				<div class="card card1">
+					<h2 style="color:yellow;">Vision</h2>
+					<p style="color:yellow; font-size:17px;">To make Kapan a well educated, problem free, clean and healthy society.</p>
+				</div>
+
+				<div class="card card2">
+					<h2 style="color:yellow">Mission</h2>
+					<p style="color:yellow; font-size:17px">To provide assistance to women,children, elderly and underpriviledged.</p>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	</section>
+
+
+
+	
+
+
+
+	<section id="events">
+		<div class="container">
+			<h2 style=""> Events</h2>
+
+			<p style="font-size:25px; color:white; padding-top: 1%; padding-bottom: 1%;"> These are some of the major events organised by our NGO. </p>
+
+			<table style="width:100%; color:white"> 
+				<tr>
+					<th> Event</th>
+					<th> Date (in B.S.) </th>
+					<th> Event Details</th>
+				</tr>
+
+				<tr>
+					<td> Environment Cleaning Programming </td>
+					<td> 22 Jesth, 2074</td>
+					<td> With the slogan of "Clean City and Green City", we gathered volunteers from our community to clean the streets. </td>
+				</tr>
+
+        <tr>
+          <td> Relief Distribution to Earthquake victims</td>
+          <td> 29 Posuh, 2072</td>
+          <td> We distributed warm clothes and blankets to the earthquake victims of Chautara, SIndhupalchowk district.</td>
+        </tr>
+
+        <tr>
+          <td> Cervical Cancer Screening Camp</td>
+          <td> 10 Falgun, 2071</td>
+          <td> We collaborated with Nepal Cancer Relief Society (NCRS) to organize a Cervical Cancer Screening Camp at Joseph High School, Kapan.</td>
+        </tr>
+
+        <tr>
+          <td>Environment and Waste Management Campaign</td>
+          <td>13 Ashar, 2072</td>
+          <td> We conducted an awareness campaign regarding environment and waste management at Bal Uddhar Secondary School at Kapan.</td>
+        </tr>
+
+        <tr>
+          <td>Free Friday Program</td>
+          <td>25 Jeth, 2075</td>
+          <td> We conducted creative skills program in Bal Uddhar Secondary School where the kids could participate in several contests such as drawing, poem and debate competitions. </td>
+        </tr>
+			</table>
+
+		</div>
+		
+	</section>
+
+	<section id="eventcalendar">
+		<div class="container2">
+			<h2 style="color:black"> Event Calendar</h2>
+
+			<h3 style="color:black; padding-top: 1%;padding-bottom: 1%;">You can find the details of our upcoming events in this calendar</h3>
+			
+			<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Asia%2FKathmandu&amp;src=c3VuYXVsb2Jpa2FscGFAZ21haWwuY29t&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=ZW4ubnAjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23039BE5&amp;color=%2333B679&amp;color=%230B8043" style="border:solid 1px #777" width="700" height="500" frameborder="0" scrolling="no"></iframe>
+		</div>
+	</section>
+
+
+	<section id="members">
+<div class = "container3">
+	<h2 style="">Members</h2>
+
+<!-- First row with 4 members -->
+<div class="row1">
+  <div class="column1">
+    <div class="card5">
+      <img src="images/geeta.jpg" alt="Jane" style="width:60%; object-fit:cover;  border-radius:50%;">
+      <div class="con3">
+        <h3>Geeta Bhattarai Parajuli</h3>
+        <p class="title">Chairperson</p>
+        <!-- <p class="desp"> akjbcweib c ojwnd jkcbsdiugbcdwiygbfbjiub</p> -->
+
+      </div>
+    </div>
+  </div>
+
+  <div class="column1">
+    <div class="card5">
+      <img src="images/shashi.jpg" alt="Jane" style="width:60%; object-fit:cover;  border-radius:50%;">
+      <div class="con3">
+        <h3>Shashi Pradhan</h3>
+        <p class="title">Vice Chairperson</p>
+        <!-- <p class="desp"> akjbcweib c ojwnd jkcbsdiugbcdwiygbfbjiub</p> -->
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column1">
+    <div class="card5">
+      <img src="images/bidhya.jpg" alt="Jane" style="width:60%; object-fit:cover;  border-radius:50%;">
+      <div class="con3">
+        <h3>Bidhya Subedi</h3>
+        <p class="title">General Secretary</p>
+        <!-- <p class="desp"> akjbcweib c ojwnd jkcbsdiugbcdwiygbfbjiub</p> -->
+      </div>
+    </div>
+  </div>
+
+
+</div>  
+
+<!-- Second row with 3 members -->
+<div class="row1">
+  <div class="column1">
+    <div class="card5">
+      <img src="images/ranjana.jpg" alt="Mike" style="width:60%; object-fit:cover;  border-radius:50%;">
+      <div class="con3">
+        <h3>Ranjana Budhathoki</h3>
+        <p class="title">Secretary</p>
+        <!-- <p class="desp"> akjbcweib c ojwnd jkcbsdiugbcdwiygbfbjiub</p> -->
+
+      </div>
+    </div>
+  </div>
+
+  <div class="column1">
+    <div class="card5">
+      <img src="images/sarita.jpg" alt="John" style="width:60%; object-fit:cover;  border-radius:50%;">
+      <div class="con3">
+        <h3>Sarita Kumari Pokhrel</h3>
+        <p class="title">Treasurer</p>
+        <!-- <p class="desp"> akjbcweib c ojwnd jkcbsdiugbcdwiygbfbjiub</p> -->
+
+      </div>
+    </div>
+  </div>
+
+  <div class="column1">
+    <div class="card5">
+      <img src="images/gita.jpg" alt="Jane" style="width:60%; object-fit:cover;  border-radius:50%;">
+      <div class="con3">
+        <h3>Gita Thapa</h3>
+        <p class="title">Member</p>
+        <!-- <p class="desp"> akjbcweib c ojwnd jkcbsdiugbcdwiygbfbjiub</p> -->
+
+      </div>
+    </div>
+  </div>
+
+  <div class="column1">
+    <div class="card5">
+      <img src="images/sakun.jpg" alt="Mike" style="width:60%; object-fit:cover;  border-radius:50%;">
+      <div class="con3">
+        <h3>Sakun Adhikari</h3>
+        <p class="title">Member</p>
+        <!-- <p class="desp"> akjbcweib c ojwnd jkcbsdiugbcdwiygbfbjiub</p> -->
+
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+
+<!-- Third row with 3 members -->
+
+<div class="row1">
+ 
+
+  <div class="column1">
+    <div class="card5">
+      <img src="images/reena.jpg" alt="John" style="width:60%; object-fit:cover;  border-radius:50%;">
+      <div class="con3">
+        <h3>Reena Budhathoki</h3>
+        <p class="title">Member</p>
+        <!-- <p class="desp"> akjbcweib c ojwnd jkcbsdiugbcdwiygbfbjiub</p> -->
+
+      </div>
+    </div>
+  </div>
+
+  <div class="column1">
+    <div class="card5">
+      <img src="images/rita.jpg" alt="Jane" style="width:60%; object-fit:cover;  border-radius:50%;">
+      <div class="con3">
+        <h3>Rita Dhakal</h3>
+        <p class="title">Member</p>
+        <!-- <p class="desp"> akjbcweib c ojwnd jkcbsdiugbcdwiygbfbjiub</p> -->
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="card5">
+      <img src="images/deepa.jpg" alt="Mike" style="width:60%; object-fit:cover;  border-radius:50%;">
+      <div class="con3">
+        <h3>Deepa Poudel</h3>
+        <p class="title">Member</p>
+        <!-- <p class="desp"> akjbcweib c ojwnd jkcbsdiugbcdwiygbfbjiub</p> -->
+      </div>
+    </div>
+  </div>
+
+  <div class="column1">
+    <div class="card5">
+      <img src="images/sashikala.jpg" alt="John" style="width:60%; object-fit:cover;  border-radius:50%;">
+      <div class="con3">
+        <h3>Sashi Kala Poudel</h3>
+        <p class="title">Member</p>
+        <!-- <p class="desp"> akjbcweib c ojwnd jkcbsdiugbcdwiygbfbjiub</p> -->
+
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</div>
+</section>
+
+
+
+	<section id="contactus">
+		<div class="container2">
+	<h3>   </h3>
+    
+    <h2 style="color: black; border-bottom:3px solid #000; font-size: 40px;">Contact Us via:</h2>
+    <div class="sidebar2">
+      <div class="box">
+        <a style="color:black;" href="https://www.facebook.com/Sunaulo-Bikalpa-315986155105182/" class="fa fa-facebook" target="_blank"></a>
+        <a style="color:black;" href="mailto:email@example.com?subject=Mail from our Website" class="fa fa-envelope" target="_blank"></a>
+      </div>
+  </div>
+    <br>
+    <h2 style="color: black; border-bottom:3px solid #000; font-size: 40px;">Here's our address for you to visit</h2>
+    <h2 style="color: black; border-bottom:0px solid #000; font-size: 20px; padding-top: 1%;">Sunaulo Bikalpa</h2>
+    <h2 style="color: black; border-bottom:0px solid #000; font-size: 20px;padding-top: 1%;">Kapan-3, Kathmandu, Nepal</h2>
+    <!-- <h2 style="color: black; border-bottom:0px solid #000; font-size: 20px;padding-top: 1%;">+977 xx</h2> -->
+
+    <br>
+
+    <!-- <head>
+    
+
+    <style type="text/css">
+      /* Set the size of the div element that contains the map */
+      #map {
+        height: 400px;
+        /* The height is 400 pixels */
+        width: 100%;
+        /* The width is the width of the web page */
+      }
+    </style>
+    <script>
+      // Initialize and add the map
+      function initMap() {
+        // The location of Uluru
+        const uluru = { lat: 27.732021, lng: 85.350714 };
+        // The map, centered at Uluru
+        const map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 4,
+          center: uluru,
+        });
+        // The marker, positioned at Uluru
+        const marker = new google.maps.Marker({
+          position: uluru,
+          map: map,
+        });
+      }
+    </script>
+  </head> -->
+  <!-- <body> -->
+    <!-- <h3 style="color:black">Our location</h3> -->
+    <!--The div element for the map -->
+    <!-- <div id="map"></div> -->
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <!-- <script -->
+      <!-- src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly" -->
+      <!-- async -->
+    <!-- ></script> -->
+  <!-- </body> -->
+
+  <h3 style="color:black">Our location</h3>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d220.72011299541003!2d85.35046455206451!3d27.73204709802847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjfCsDQzJzU1LjMiTiA4NcKwMjEnMDIuNiJF!5e0!3m2!1sen!2snp!4v1620458034938!5m2!1sen!2snp" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+</div>
+	
+</section>
+
+    <footer class="footer">
+      <h7>Made With &#10084; by Sameep Dahal & Pavan Garimella</h7>
+    </footer>
+
+
+</body>
+</html>
